@@ -34,9 +34,10 @@ export default function Header() {
     <div>
       <header className="flex items-center justify-between py-5 text-sm text-neutral-300">
         <nav className="hidden gap-12 sm:flex">
-          {navLink("/", "Home")}
-          {navLink("/speakers", "Speakers")}
-          {navLink("/events", "Events")}
+          {navLink("/", "الرئيسية")}
+          {navLink("/speakers", "المتحدثون")}
+          {navLink("/events", "الفعاليات")}
+          {navLink("/news", "الأخبار")}
         </nav>
 
         <div className="flex flex-1 justify-center sm:justify-center ml-14 sm:ml-0">
@@ -50,9 +51,10 @@ export default function Header() {
         </div>
 
         <nav className="hidden gap-12 sm:flex">
-          {navLink("/blog", "Blog")}
-          {navLink("/map", "Map")}
-          {navLink("/contact", "Contact Us")}
+          {navLink("/blog", "المدونة")}
+          {navLink("/map", "الخريطة")}
+          {navLink("/about", "من نحن")}
+          {navLink("/contact", "اتصل بنا")}
         </nav>
 
         {/* Mobile menu button */}
@@ -86,12 +88,14 @@ export default function Header() {
               </button>
             </div>
             <div className="mt-10 grid grid-cols-2 gap-y-4 gap-x-6 text-lg">
-              {navLink("/", "Home")}
-              {navLink("/speakers", "Speakers")}
-              {navLink("/events", "Events")}
-              {navLink("/blog", "Blog")}
-              {navLink("/map", "Map")}
-              {navLink("/contact", "Contact Us")}
+              {navLink("/", "الرئيسية")}
+              {navLink("/speakers", "المتحدثون")}
+              {navLink("/events", "الفعاليات")}
+              {navLink("/news", "الأخبار")}
+              {navLink("/blog", "المدونة")}
+              {navLink("/map", "الخريطة")}
+              {navLink("/about", "من نحن")}
+              {navLink("/contact", "اتصل بنا")}
             </div>
           </div>
         </div>

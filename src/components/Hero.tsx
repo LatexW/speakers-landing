@@ -36,15 +36,14 @@ export default function Hero() {
 
         {/* Centered headline */}
         <div className="flex flex-1 flex-col items-center justify-center text-center translate-y-8 sm:translate-y-12">
-          <h1 className="text-[48px] sm:text-[80px] md:text-[104px] lg:text-[128px] leading-[0.95] font-bold tracking-tight">
-            Speakers
+          <h1 className="text-[48px] sm:text-[80px] md:text-[104px] lg:text-[128px] leading-[1] font-bold tracking-tight">
+            صوت الحدث ...
           </h1>
-          <h2 className="text-[48px] sm:text-[80px] md:text-[104px] lg:text-[128px] leading-[0.95] font-bold tracking-tight">
-            Platform
+          <h2 className="mt-4 sm:mt-5 text-[48px] sm:text-[80px] md:text-[104px] lg:text-[128px] leading-[1] font-bold tracking-tight">
+            وقوّة الحضور.
           </h2>
           <p className="mt-6 max-w-2xl text-xs text-neutral-400 sm:text-sm"><br /><br />
-            The first platform for Arabic speakers, connecting you with top <br /> experts and speakers in
-            various fields.
+            المنصة الأولى للمتحدثين العرب؛ تربطك بنخبة من المتحدثين والخبراء في مختلف القطاعات.
           </p>
         </div>
       </div>
